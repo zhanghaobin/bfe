@@ -72,6 +72,7 @@ func MapConvert(m map[string]interface{}, v interface{}) (err error) {
 
 		vField.Set(convertV)
 	}
+
 	return nil
 }
 
